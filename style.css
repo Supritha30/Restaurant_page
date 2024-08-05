@@ -1,0 +1,95 @@
+body{
+    background-color:pink;
+    color:brown;
+    margin:50px;
+    border: 5px solid black;
+    padding:30px;
+    border-radius:20px;
+}
+
+.main h1{
+    text-align: center;
+    color: peru;
+    font-family: cursive;
+    font-size: 38px;
+    text-shadow:2px 2px 5px black;
+    letter-spacing: 12px;
+}
+.menu ul{
+    background-color: whitesmoke;
+    padding: 0px;
+    margin:0px;
+    border-radius:20px;
+    list-style-type:none;
+    overflow:hidden;
+}
+
+.menu ul li{
+    float:left;
+}
+
+.menu ul li a{
+   padding:14px 16px ;
+   color: black;
+   text-decoration:none;
+   display:block; 
+}
+.menu ul li a:hover{
+    color:#fff;
+    background-color:black;
+    border-radius:20px;
+}
+
+.about .container{
+    display:flex;
+}
+.about .container .col{
+   width:50%;
+   justify-content: space-around
+}
+
+.about .container .col{
+    width:100%;
+}
+.about .container .col p{
+     text-align:justify;
+     line-height: 22px;
+     font-family: cursive;
+     margin-left: 20px;
+}
+.images .col img{
+    width:20%;
+}
+.service table{
+    width :50%;
+}
+.service table th{
+    background-color: aquamarine;
+    color: black;
+    padding: 5px;
+}
+.service table td{
+    background-color:rgb(18, 153, 187);
+    color:black;
+    text-align: center;
+    padding:5px;
+}
+input[type="text"],input[type="email"],textarea{
+    width:100%;
+    border: 1px solid color;
+    padding: 5px;
+    border-radius: 10px;
+}
+input[type="submit"]
+{
+    background-color:rgb(18, 153, 187);
+    color:black;
+    padding:10px;
+    width:100%;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.footer{
+    text-align: center;
+}
